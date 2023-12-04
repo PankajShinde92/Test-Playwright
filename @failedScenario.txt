@@ -1,1 +1,1 @@
-src/test/features/addToCart.feature:18:20
+src/test/feature/addToCart.feature:18:20
