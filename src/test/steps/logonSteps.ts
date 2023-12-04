@@ -12,7 +12,6 @@ let page : Page;
 setDefaultTimeout(10 * 60 * 1000);
 
 Given('User navigates to the application', async function () {
-    
     await pageFixture.page.goto(process.env.BASEURL);
   });
 

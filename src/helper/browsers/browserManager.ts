@@ -1,5 +1,4 @@
 import { LaunchOptions, chromium, firefox, webkit } from "@playwright/test"
-import { error } from "console";
 
 
 const options :LaunchOptions ={
@@ -17,6 +16,6 @@ export const invokeBrowser = () => {
         case "webkit":
             return webkit.launch(options);
             default:
-                throw new error("Please select Broswer properly!")
+                throw new Error("Please select Broswer properly!")
             }
 }
