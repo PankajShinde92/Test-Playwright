@@ -23,3 +23,6 @@ All scripts for running test are available use following from Package.json:
     "test": "cross-env ENV=prod cucumber-js test",  --> To Run Tests
     "test:failed": "cucumber-js -p failedScenario @failedScenario.txt", --> To run failed Tests
     "report": "npx ts-node src/helper/report/report.ts" ---> To run the cucumber report
+
+To locate Feature files go to --> src/test/features files
+To locate Step defination go to --> src/test/steps
